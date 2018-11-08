@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/tongcheng123"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ddde" />
+
+    <TextView
+        android:id="@+id/aiqi1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffeeff00"
+        android:gravity="center"
+        android:text="同城"
+        android:textSize="28sp" />
+
+    <ListView
+    android:id="@+id/list1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/dilan1"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/aiqi1" >
+
+    </ListView>
+   <TextView
+        android:id="@+id/dilan1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ffeeff00" />
+
+    <ImageButton
+        android:id="@+id/add1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/shouye1"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/ic_menu_add" />
+
+    <TextView
+        android:id="@+id/texttc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tongcheng1"
+        android:layout_below="@+id/tongcheng1"
+        android:text="同城"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textsy1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/shouye1"
+        android:layout_below="@+id/shouye1"
+        android:text="首页"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textfb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/texttc1"
+        android:layout_centerHorizontal="true"
+        android:text="发布"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textxx1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textfb1"
+        android:layout_alignRight="@+id/xiaoxi1"
+        android:text="消息"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textfb1"
+        android:layout_alignBottom="@+id/textfb1"
+        android:layout_alignLeft="@+id/geren1"
+        android:text="我的"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/tongcheng1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textsy1"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/add1"
+        android:src="@android:drawable/ic_menu_myplaces" 
+         android:background="#00feee" />
+
+    <ImageButton
+        android:id="@+id/xiaoxi1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textxx1"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/add1"
+        android:background="@android:drawable/stat_notify_chat" />
+
+    <ImageButton
+        android:id="@+id/shouye1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+  
+        android:layout_alignTop="@+id/dilan1"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/ic_menu_save" />
+
+    <ImageButton
+        android:id="@+id/geren1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textxx1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@android:drawable/stat_notify_voicemail" />
+
+    <Button
+        android:id="@+id/myhuodong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/list1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/xiaoxi1"
+         android:background="#ffeeff00"
+        android:textSize="20sp"
+        android:text="活动" />
+
+</RelativeLayout>

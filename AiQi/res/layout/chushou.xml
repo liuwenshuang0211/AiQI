@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+          android:id="@+id/aiqi"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="center_horizontal"
+          android:background="#ffeeff00"
+          android:gravity="center"
+          android:text="单车出售"
+          android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/danche"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+           android:layout_centerHorizontal="true"
+        android:layout_below="@+id/aiqi"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/tupianbt"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/danche"
+        android:layout_centerHorizontal="true"
+        android:text="选择照片" 
+          android:textSize="20sp"
+            android:background="#ffeeff00"
+            />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+
+        android:layout_toRightOf="@+id/jiage"
+        android:text="元"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/jiage"
+        android:layout_marginTop="48dp"
+        android:text="单车描述:" 
+          android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/chushoubt"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txdes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="确定" 
+        android:textSize="20sp"
+            android:background="#ffeeff00"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="出售单价:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/jiage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10" >
+      <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/txdes"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/jiage"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView3"
+           android:gravity="top|left"
+        android:ems="10" />
+
+     
+    <ProgressBar
+        android:id="@+id/progressBar10"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

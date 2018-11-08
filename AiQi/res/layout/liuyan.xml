@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dddb" />
+    <TextView
+          android:id="@+id/aiqi55"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="center_horizontal"
+          android:background="#ffeeff00"
+          android:gravity="center"
+          android:text="给TA留言"
+          android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/liuyanbt"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="#ffeeff00"
+        android:text="确定"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/liuyan"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_above="@+id/liuyanbt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="top|left"
+        android:layout_marginBottom="22dp"
+        android:ems="10" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/liuyan"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aiqi55" >
+
+        <TextView
+            android:id="@+id/jilu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            android:text="无留言记录"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

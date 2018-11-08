@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<TextView
+          android:id="@+id/aiqi5"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="center_horizontal"
+          android:background="#ffeeff00"
+          android:gravity="center"
+          android:text="图片上传界面"
+          android:textSize="28sp" />
+
+<Button
+    android:id="@+id/btn_take_photo"
+      android:background="#ffeeff00"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:layout_below="@+id/aiqi5"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="130dp"
+    android:text="拍照上传" />
+
+<Button
+    android:id="@+id/btn_pick_photo"
+      android:background="#ffeeff00"
+    android:layout_width="200dp"
+    android:layout_height="40dp"
+    android:layout_alignLeft="@+id/btn_take_photo"
+    android:layout_below="@+id/btn_take_photo"
+    android:layout_marginTop="62dp"
+    android:text="相册上传" />
+
+</RelativeLayout>

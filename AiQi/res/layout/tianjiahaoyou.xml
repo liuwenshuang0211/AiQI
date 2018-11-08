@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <TextView
+          android:id="@+id/aiqi11451"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="center_horizontal"
+          android:background="#ffeeff00"
+          android:gravity="center"
+          android:text="添加好友"
+          android:textSize="28sp" />
+
+ <EditText
+     android:id="@+id/haoyouname"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/aiqi11451"
+     android:layout_marginTop="74dp"
+     android:ems="10" />
+
+ <Button
+     android:id="@+id/haoyoutianjiabt"
+     android:layout_width="80dp"
+     android:layout_height="50dp"
+     android:layout_alignBaseline="@+id/haoyouname"
+     android:layout_alignBottom="@+id/haoyouname"
+     android:layout_marginLeft="18dp"
+     android:layout_toRightOf="@+id/haoyouname"
+               android:background="#ffeeff00"
+     android:text="添加" 
+       android:textSize="23sp" />
+
+</RelativeLayout>

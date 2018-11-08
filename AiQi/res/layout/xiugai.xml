@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/zhucelan"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffeeff00"
+        android:gravity="center"
+        android:text="密码修改"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="44dp"
+        android:text="再次输入："
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toRightOf="@+id/textView3"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignTop="@+id/textView2"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText20"
+        android:layout_alignTop="@+id/textView3"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/zhucelan"
+        android:layout_marginTop="113dp"
+        android:text="原密码："
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+           android:layout_below="@+id/textView1"
+        android:layout_marginTop="44dp"
+        android:text="新密码："
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btxiugai"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#ffeeff00"
+          android:textSize="25sp" 
+        android:text="确定" />
+
+</RelativeLayout>

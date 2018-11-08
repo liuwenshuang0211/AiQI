@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dddb" />
+      <TextView
+          android:id="@+id/aiqi44"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="center_horizontal"
+          android:background="#ffeeff00"
+          android:gravity="center"
+          android:text="活动报名"
+          android:textSize="28sp" />
+
+      <TextView
+          android:id="@+id/baomingxinxi"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/aiqi44"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="50dp"
+          android:text="报名信息加载中,请稍后......"
+          android:textSize="20sp" />
+
+      <Button
+          android:id="@+id/baoming11"
+          android:layout_width="80dp"
+          android:layout_height="50dp"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="100dp"
+          android:background="#ffeeff00"
+          android:text="报名"
+          android:textSize="20sp" />
+
+     
+
+      <TextView
+          android:id="@+id/xingming111"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/baoming11"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="14dp"
+          android:text="姓名"
+          android:textSize="15sp" />
+
+      <ImageView
+          android:id="@+id/touxiang111"
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:layout_above="@+id/xingming111"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="30dp"
+          android:scaleType="fitXY"
+          android:src="@drawable/jaychou" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignTop="@+id/touxiang111"
+          android:layout_marginLeft="17dp"
+          android:layout_marginTop="21dp"
+          android:text="负责人：" />
+
+      <ProgressBar
+          android:id="@+id/baomingjiazai"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/textView1"
+          android:layout_centerHorizontal="true" />
+
+>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+          android:id="@+id/aiqi112"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:layout_gravity="center_horizontal"
+          android:background="#ffeeff00"
+          android:gravity="center"
+          android:text="收货信息"
+          android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/dizhibt"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="#ffeeff00"
+        android:text="确定"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shouhuodizhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dianhuahaoma11"
+        android:layout_marginTop="86dp"
+        android:text="收货地址："
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/addresset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/shouhuodizhi"
+        android:layout_alignBottom="@+id/shouhuodizhi"
+        android:layout_alignLeft="@+id/dianhuahaoma11"
+        android:ems="10"
+        android:hint="请输入你的收货地址" />
+
+    <TextView
+        android:id="@+id/shoujihaoma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/aiqi112"
+        android:layout_marginTop="112dp"
+        android:text="手机号码："
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/dianhuahaoma11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/shoujihaoma"
+        android:layout_alignBottom="@+id/shoujihaoma"
+        android:layout_toRightOf="@+id/shoujihaoma"
+        android:ems="10"
+        android:hint="请输入你的手机号码"
+        android:inputType="phone" />
+
+</RelativeLayout>

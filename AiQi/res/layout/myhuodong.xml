@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ddda" />
+    <TextView
+        android:id="@+id/aiqi58"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffeeff00"
+        android:gravity="center"
+        android:text="我的活动"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/mybaomingxinxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aiqi58"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="报名信息"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/baominglv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/renshu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/baominglv"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="   人" 
+         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/xiugaibt"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mybaomingxinxi"
+        android:layout_marginTop="40dp"
+        android:background="#ffeeff00"
+        android:text="重新编辑"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/quxiaobt"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/xiugaibt" 
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffeeff00"
+        android:text="取消活动"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/quxiaobt"
+        android:layout_toLeftOf="@+id/quxiaobt"
+        android:text="人员信息："
+        android:textSize="20sp" />
+
+</RelativeLayout>
